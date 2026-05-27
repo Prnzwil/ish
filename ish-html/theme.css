@@ -1,25 +1,3 @@
-@import "tailwindcss";
-
-@theme inline {
-  --color-cream: var(--cream);
-  --color-cream-deep: var(--cream-deep);
-  --color-warm-white: var(--warm-white);
-  --color-nude: var(--nude);
-  --color-blush: var(--blush);
-  --color-blush-deep: var(--blush-deep);
-  --color-rose-gold: var(--rose-gold);
-  --color-rose-gold-deep: var(--rose-gold-deep);
-  --color-gold: var(--gold);
-  --color-soft-brown: var(--soft-brown);
-  --color-charcoal: var(--charcoal);
-  --color-charcoal-soft: var(--charcoal-soft);
-  --color-line: var(--line);
-  --color-line-soft: var(--line-soft);
-
-  --font-display: var(--display);
-  --font-body: var(--body);
-}
-
 :root {
   --cream: #f6efe6;
   --cream-deep: #efe6d8;
@@ -36,8 +14,8 @@
   --line: rgba(42, 34, 29, 0.12);
   --line-soft: rgba(42, 34, 29, 0.06);
 
-  --display: var(--font-display), "Playfair Display", Georgia, serif;
-  --body: var(--font-body), "Inter", system-ui, sans-serif;
+  --display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --body: "Jost", "Inter", system-ui, sans-serif;
 
   --shadow-soft: 0 24px 60px -30px rgba(76, 53, 39, 0.25), 0 4px 14px -6px rgba(76, 53, 39, 0.08);
   --shadow-card: 0 10px 30px -16px rgba(76, 53, 39, 0.22);

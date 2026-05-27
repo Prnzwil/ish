@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ish Hair & Beauty Salon — Print Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="theme.css" />
+<style>
+  /* ---------- Print-only adjustments ---------- */
+  html, body { background: var(--cream); }
+
+  /* Hide live-app chrome */
+  .nav, .float-book, [data-tweaks-panel], .tweaks-panel, .mobile-menu, .scroll-cue, .menu-btn { display: none !important; }
+
+  /* All Reveal animations should be visible immediately in print */
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+
+  /* Print-page sectioning */
+  .print-page {
+    page-break-after: always;
+    break-after: page;
+    padding-top: 60px; /* replace the fixed nav padding */
+  }
+  .print-page:last-child { page-break-after: auto; break-after: auto; }
+
+  /* Avoid breaking inside cards */
+  .service-card, .team-card, .price-card, .blog-card, .tcard, .ci-card,
+  .value-card, .why-item, .p-step, .faq-item, .svc-row {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Hero / page heads should print as a contained spread, not a 100vh fill */
+  .hero { min-height: auto; padding: 80px 0 100px; }
+  .hero-meta { position: static; padding: 30px 40px 0; color: var(--charcoal); }
+  .hero-rating, .hero-meta > div { color: var(--charcoal); }
+  .scroll-cue { display: none !important; }
+
+  .page-head { padding: 80px 0 60px; }
+
+  /* Section padding tighter for print */
+  .section { padding: 60px 0; }
+  .section-tight { padding: 40px 0; }
+
+  /* Make sure background images & colors print */
+  body, .hero, .hero-bg, .cta-bg, .testimonial-wrap, .footer, .price-card.featured,
+  .booking-summary, .service-card-img, .sc-img-inner, .g-tile, .ba-half,
+  .team-img, .team-img-inner, .svc-img, .about-img, .why-image, .blog-img,
+  .insta-strip .ig, .map-wrap, .cta-banner {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Page-break separator label */
+  .page-divider {
+    text-align: center;
+    padding: 28px 0;
+    font-family: var(--display);
+    font-style: italic;
+    color: var(--rose-gold);
+    font-size: 18px;
+    letter-spacing: 0.18em;
+  }
+  .page-divider span {
+    display: inline-block;
+    padding: 0 24px;
+    position: relative;
+  }
+  .page-divider span::before,
+  .page-divider span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 1px;
+    background: var(--rose-gold);
+  }
+  .page-divider span::before { right: 100%; }
+  .page-divider span::after { left: 100%; }
+
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  @media print {
+    .float-book, .nav, .tweaks-panel, [data-tweaks-panel] { display: none !important; }
+    .hero { min-height: auto !important; }
+    /* Smooth the long sections so they don't cause weird empty pages */
+    .section { padding: 40px 0; }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+  // Inert tweaks defaults (panel hidden anyway, but apply baseline)
+  const TWEAK_DEFAULTS = {
+    "palette": "Cream & Rose Gold",
+    "displayFont": "Cormorant Garamond",
+    "bodyFont": "Jost"
+  };
+</script>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="data.jsx"></script>
+<script type="text/babel" src="ui.jsx"></script>
+<script type="text/babel" src="pages-home.jsx"></script>
+<script type="text/babel" src="pages-about-team.jsx"></script>
+<script type="text/babel" src="pages-services.jsx"></script>
+<script type="text/babel" src="pages-gallery-contact.jsx"></script>
+<script type="text/babel" src="pages-extras.jsx"></script>
+
+<script type="text/babel">
+  // Render every page stacked vertically for print
+  const ALL_PAGES = [
+    { id: "home",     label: "Home",            C: HomePage },
+    { id: "about",    label: "About",           C: AboutPage },
+    { id: "services", label: "Services",        C: ServicesPage },
+    { id: "team",     label: "The Team",        C: TeamPage },
+    { id: "pricing",  label: "Pricing",         C: PricingPage },
+    { id: "gallery",  label: "Gallery",         C: GalleryPage },
+    { id: "booking",  label: "Booking",         C: BookingPage },
+    { id: "blog",     label: "The Ish Journal", C: BlogPage },
+    { id: "contact",  label: "Contact",         C: ContactPage },
+  ];
+
+  function PrintBook() {
+    return (
+      <div>
+        {ALL_PAGES.map((p, i) => (
+          <React.Fragment key={p.id}>
+            {i > 0 && (
+              <div className="page-divider">
+                <span>✦ {p.label} ✦</span>
+              </div>
+            )}
+            <section className="print-page" id={`print-${p.id}`}>
+              <p.C />
+            </section>
+          </React.Fragment>
+        ))}
+        <Footer />
+      </div>
+    );
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(<PrintBook />);
+
+  // Auto-trigger print once fonts + JSX + images are settled
+  (async () => {
+    try {
+      if (document.fonts && document.fonts.ready) {
+        await document.fonts.ready;
+      }
+    } catch (_) {}
+    // Give Babel-transpiled scripts and image loads time to settle
+    await new Promise((r) => setTimeout(r, 1800));
+    window.print();
+  })();
+</script>
+</body>
+</html>
