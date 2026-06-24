@@ -1,6 +1,6 @@
 @AGENTS.md
 
-This is the ish website code.
+This is the Kutie website code.
 
 ## Workflow Rules (always follow these)
 

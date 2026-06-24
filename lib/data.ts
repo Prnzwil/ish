@@ -99,7 +99,7 @@ export const SERVICES: readonly Service[] = [
     long: "From sleek silk-press finishes to romantic Hollywood waves, our stylists craft looks designed to move with you. Every appointment begins with a consultation so the final shape feels unmistakably yours.",
     img: IMG.hairStyling,
     duration: "60–90 min",
-    from: "$65",
+    from: "N65k",
     benefits: ["Personalized consultation", "Heat-protected finish", "Long-lasting hold", "Aftercare guidance"],
   },
   {
@@ -110,7 +110,7 @@ export const SERVICES: readonly Service[] = [
     long: "Our colourists blend on the spot, layering tones with hand-painted precision. We use ammonia-free systems wherever possible so your hair stays soft, shiny, and healthy.",
     img: IMG.hairColor,
     duration: "2–4 hrs",
-    from: "$140",
+    from: "N140k",
     benefits: ["Hand-painted balayage", "Bond-building protection", "Tone-matched gloss", "30-day refresh"],
   },
   {
@@ -121,7 +121,7 @@ export const SERVICES: readonly Service[] = [
     long: "Heat, colour, and styling take a toll. Our in-salon treatments rebuild bonds, soothe the scalp, and lock in moisture — leaving hair visibly stronger after a single session.",
     img: IMG.hairTreatment,
     duration: "45–75 min",
-    from: "$85",
+    from: "N85k",
     benefits: ["Bond repair", "Scalp ritual massage", "Deep moisture infusion", "Visible shine boost"],
   },
   {
@@ -132,7 +132,7 @@ export const SERVICES: readonly Service[] = [
     long: "Length you can run your fingers through. We carry ethically sourced, 100% human hair and use placement techniques that protect your natural strands while giving you fullness that lasts.",
     img: IMG.hairExtensions,
     duration: "2.5–4 hrs",
-    from: "$320",
+    from: "N320k",
     benefits: ["100% human hair", "Undetectable placement", "Custom colour match", "Maintenance plan"],
   },
   {
@@ -143,7 +143,7 @@ export const SERVICES: readonly Service[] = [
     long: "We treat your wedding morning like a private suite experience. Trial appointments help us perfect your look in advance, and on the day we'll come to you or host your party in-salon.",
     img: IMG.bridal,
     duration: "Half / full day",
-    from: "$280",
+    from: "N280k",
     benefits: ["Trial run included", "On-location available", "Bridal party rates", "Touch-up kit included"],
   },
   {
@@ -154,7 +154,7 @@ export const SERVICES: readonly Service[] = [
     long: "Our beauty room rounds out the salon visit with treatments designed to complement your hair. Walk out feeling head-to-toe radiant.",
     img: IMG.beauty,
     duration: "30–90 min",
-    from: "$45",
+    from: "N45k",
     benefits: ["Brow design", "Lash lift & tint", "Facial treatments", "Special-occasion makeup"],
   },
 ] as const;
@@ -182,10 +182,10 @@ export const TESTIMONIALS: readonly Testimonial[] = [
 
 export const TEAM: readonly TeamMember[] = [
   {
-    name: "Ishika Patel",
+    name: "Kutieika Patel",
     role: "Founder · Lead Stylist",
     spec: "Precision cutting · Modern styling",
-    bio: "Founder of Ish with 12 years across Toronto and London salons. Known for sculpted cuts that grow out as beautifully as they begin.",
+    bio: "Founder of Kutie with 12 years across Toronto and London salons. Known for sculpted cuts that grow out as beautifully as they begin.",
     img: IMG.stylist1,
   },
   {
@@ -250,7 +250,7 @@ export const PRICING: readonly Pricing[] = [
     label: "Essentials",
     name: "Signature",
     desc: "Everything you need for a polished, regular look.",
-    price: "$120",
+    price: "N120k",
     unit: "Starting",
     features: ["Consultation & cut", "Wash & blow-dry", "Style finish", "Take-home product sample"],
     featured: false,
@@ -259,7 +259,7 @@ export const PRICING: readonly Pricing[] = [
     label: "Most Popular",
     name: "Refresh",
     desc: "Add colour and care to your signature service.",
-    price: "$240",
+    price: "N240k",
     unit: "Starting",
     features: ["Everything in Signature", "Single-process colour", "Gloss & tone", "Bond-repair treatment", "Complimentary scalp ritual"],
     featured: true,
@@ -268,7 +268,7 @@ export const PRICING: readonly Pricing[] = [
     label: "The Full Suite",
     name: "Transformation",
     desc: "A complete hair & beauty experience.",
-    price: "$480",
+    price: "N480k",
     unit: "Starting",
     features: ["Cut, colour & style", "Full balayage or correction", "Treatment + scalp ritual", "Brow shaping & lash lift", "Touch-up product kit"],
     featured: false,

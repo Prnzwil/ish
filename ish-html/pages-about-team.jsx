@@ -6,7 +6,7 @@ function AboutPage() {
       <PageHead
         crumbs="About"
         title="Beauty, with <em>intention.</em>"
-        sub="Ish is a boutique salon born out of one belief — that great hair is a quiet kind of confidence, and that you deserve a space that takes it seriously."
+        sub="Kutie is a boutique salon born out of one belief — that great hair is a quiet kind of confidence, and that you deserve a space that takes it seriously."
         bg={IMG.salonInterior}
       />
       <section className="section" style={{ paddingTop: 60 }}>
@@ -18,7 +18,7 @@ function AboutPage() {
                 <span className="eyebrow">Our Story</span>
                 <h2 style={{ marginTop: 14 }}>A boutique salon<br />for <em className="serif-i">every chapter</em>.</h2>
                 <p style={{ color: "var(--soft-brown)", marginTop: 20, fontSize: 17, lineHeight: 1.7 }}>
-                  Ish was founded with a singular idea: that a salon visit should feel less like an errand and more like an hour belonging entirely to you. From the moment you walk through our door in Oshawa, you're greeted by warm light, considered design, and a team that listens before they style.
+                  Kutie was founded with a singular idea: that a salon visit should feel less like an errand and more like an hour belonging entirely to you. From the moment you walk through our door in Oshawa, you're greeted by warm light, considered design, and a team that listens before they style.
                 </p>
                 <p style={{ color: "var(--soft-brown)", marginTop: 18, fontSize: 17, lineHeight: 1.7 }}>
                   We've been a small team since the beginning — by design. It lets us know our regulars by name, remember the products you love, and craft a service that actually feels personal.
@@ -101,7 +101,7 @@ function TeamPage() {
       <PageHead
         crumbs="The Team"
         title="Meet the <em>stylists.</em>"
-        sub="Four specialists, one shared standard. Every member of the Ish team brings years of training and an eye for the kind of detail you notice the moment you sit in the chair."
+        sub="Four specialists, one shared standard. Every member of the Kutie team brings years of training and an eye for the kind of detail you notice the moment you sit in the chair."
       />
       <section className="section" style={{ paddingTop: 40 }}>
         <div className="shell-wide">

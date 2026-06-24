@@ -5,9 +5,9 @@ import Reveal from "@/components/Reveal";
 import { BLOG_POSTS } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Journal — Ish Hair & Beauty Salon",
+  title: "Journal — Kutie's Beauty Lounge",
   description:
-    "Beauty tips, hair-care guides, and stories from the chair — written by the Ish team for the curious.",
+    "Beauty tips, hair-care guides, and stories from the chair — written by the Kutie team for the curious.",
 };
 
 export default function BlogPage() {
@@ -17,7 +17,7 @@ export default function BlogPage() {
     <>
       <PageHead
         crumbs="Journal"
-        title="The <em>Ish</em> Journal."
+        title="The <em>Kutie</em> Journal."
         sub="Beauty tips, hair-care guides, and stories from the chair — written by our team for the curious."
       />
       <section className="section" style={{ paddingTop: 30 }}>

@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 import { PRICING, SERVICES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Pricing — Ish Hair & Beauty Salon",
+  title: "Pricing — Kutie's Beauty Lounge",
   description:
     "Three considered packages plus every service à la carte. No surprises at the chair — pricing always confirmed during consultation.",
 };

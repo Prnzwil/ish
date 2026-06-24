@@ -6,9 +6,9 @@ import Reveal from "@/components/Reveal";
 import { IMG, SERVICES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Services — Ish Hair & Beauty Salon",
+  title: "Services — Kutie's Beauty Lounge",
   description:
-    "The full Ish menu: styling, colour, treatments, extensions, bridal, and beauty — every service crafted with care.",
+    "The full Kutie menu: styling, colour, treatments, extensions, bridal, and beauty — every service crafted with care.",
 };
 
 export default function ServicesPage() {
@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <PageHead
         crumbs="Services"
         title="The full <em>menu.</em>"
-        sub="Every service at Ish begins with a private consultation and a commitment to the result you actually want — not a template."
+        sub="Every service at Kutie begins with a private consultation and a commitment to the result you actually want — not a template."
         bg={IMG.hairTreatment}
       />
       <section className="section" style={{ paddingTop: 20 }}>

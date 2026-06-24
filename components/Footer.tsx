@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <span className="brand-mark">
-              Ish <span className="amp">&amp;</span> Co.
+              Kutie's <span className="amp">Beauty</span>
             </span>
             <p style={{ marginTop: 18, color: "rgba(251,247,241,0.65)", maxWidth: 340 }}>
               A luxury hair and beauty salon in Oshawa — where every guest leaves looking and feeling their absolute best.
@@ -41,12 +41,12 @@ export default function Footer() {
           <div>
             <h4>Visit</h4>
             <p style={{ color: "rgba(251,247,241,0.7)", fontSize: 14, marginBottom: 18 }}>
-              1808 Grandview St N
+              First floor, 8 Ajayi Aina Street, Ifako, opposite
               <br />
-              Oshawa, ON L1K 0Y2
+              Gate A4 of, Gbagada, Lagos 100234, Lagos
               <br />
-              <a href="tel:6479609764" style={{ padding: 0, color: "var(--gold)", fontSize: 14 }}>
-                (647) 960-9764
+              <a href="tel:+2348124416681" style={{ padding: 0, color: "var(--gold)", fontSize: 14 }}>
+                +234 812 441 6681
               </a>
             </p>
             <h4 style={{ marginTop: 30 }}>Hours</h4>
@@ -68,7 +68,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bot">
-          <span>© {year} Ish Hair &amp; Beauty Salon. All rights reserved.</span>
+          <span>© {year} Kutie's Beauty Lounge. All rights reserved.</span>
           <span style={{ fontFamily: "var(--display)", fontStyle: "italic", color: "var(--gold)" }}>
             Crafted with care in Oshawa, Ontario.
           </span>

@@ -80,7 +80,7 @@ function WhyChoose() {
           <div className="why">
             <div className="why-image" style={{ backgroundImage: `url(${IMG.salonInterior})` }}></div>
             <div>
-              <span className="eyebrow">Why Ish</span>
+              <span className="eyebrow">Why Kutie</span>
               <h2 style={{ marginTop: 18 }}>The little details<br />you can <em className="serif-i">feel</em>.</h2>
               <p style={{ color: "var(--soft-brown)", marginTop: 18, maxWidth: 460 }}>
                 A philosophy of slow craft, premium product, and a chair that always feels like the best seat in the room.
@@ -190,7 +190,7 @@ function ProcessSection() {
       <div className="shell-wide">
         <Reveal>
           <div className="section-head">
-            <span className="eyebrow">The Ish Ritual</span>
+            <span className="eyebrow">The Kutie Ritual</span>
             <h2>Five steps from<br />booked to <em className="serif-i">beaming.</em></h2>
             <p>Every appointment is a thoughtful sequence — designed so the time you spend with us feels like a small reset for the day.</p>
           </div>
@@ -272,7 +272,7 @@ function InstagramStrip() {
         <Reveal>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: 16, marginBottom: 28 }}>
             <div>
-              <span className="eyebrow">@ishbeauty</span>
+              <span className="eyebrow">@kutiebeauty</span>
               <h2 style={{ marginTop: 12, fontSize: "clamp(28px, 3vw, 44px)" }}>Follow our daily <em className="serif-i">looks</em>.</h2>
             </div>
             <a href="#" className="btn-ghost">Visit Instagram →</a>

@@ -11,8 +11,8 @@ import TeamPage from "@/app/team/page";
 import PrintAutoFire from "@/components/PrintAutoFire";
 
 export const metadata: Metadata = {
-  title: "Ish Hair & Beauty Salon — Print Edition",
-  description: "Print edition of the Ish Hair & Beauty Salon website.",
+  title: "Kutie's Beauty Lounge — Print Edition",
+  description: "Print edition of the Kutie's Beauty Lounge website.",
 };
 
 const PRINT_STYLES = `
@@ -71,7 +71,7 @@ const PAGES = [
   { id: "pricing", label: "Pricing", C: PricingPage },
   { id: "gallery", label: "Gallery", C: GalleryPage },
   { id: "booking", label: "Booking", C: BookingPage },
-  { id: "blog", label: "The Ish Journal", C: BlogPage },
+  { id: "blog", label: "The Kutie Journal", C: BlogPage },
   { id: "contact", label: "Contact", C: ContactPage },
 ] as const;
 

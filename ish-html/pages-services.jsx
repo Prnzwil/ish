@@ -6,7 +6,7 @@ function ServicesPage() {
       <PageHead
         crumbs="Services"
         title="The full <em>menu.</em>"
-        sub="Every service at Ish begins with a private consultation and a commitment to the result you actually want — not a template."
+        sub="Every service at Kutie begins with a private consultation and a commitment to the result you actually want — not a template."
         bg={IMG.hairTreatment}
       />
       <section className="section" style={{ paddingTop: 20 }}>

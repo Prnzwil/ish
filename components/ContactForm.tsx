@@ -89,7 +89,7 @@ export default function ContactForm() {
             id="cf-phone"
             value={form.phone}
             onChange={update("phone")}
-            placeholder="(647) 000-0000"
+            placeholder="+234 812 441 6681"
           />
         </div>
       </div>

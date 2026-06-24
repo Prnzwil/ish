@@ -5,7 +5,7 @@ import PageHead from "@/components/PageHead";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Gallery — Ish Hair & Beauty Salon",
+  title: "Gallery — Kutie's Beauty Lounge",
   description:
     "Real clients, real chairs, real transformations — a portfolio of looks captured at our Oshawa salon.",
 };

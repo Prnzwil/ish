@@ -120,7 +120,7 @@ function ContactPage() {
                     <div className="pin-dot"></div>
                   </div>
                   <div className="map-card">
-                    <div className="t">Ish Hair &amp; Beauty</div>
+                    <div className="t">Kutie Hair &amp; Beauty</div>
                     <div className="s">1808 Grandview St N</div>
                   </div>
                 </div>

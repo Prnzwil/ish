@@ -48,7 +48,7 @@ function Nav({ current }) {
       <nav className={`nav ${scrolled ? "scrolled" : ""}`} data-screen-label="Navigation">
         <div className="shell-wide nav-inner">
           <a href="#/home" onClick={(e) => { e.preventDefault(); navigate("home"); }} className="brand">
-            <span className="brand-mark">Ish <span className="amp">&amp;</span> Co.</span>
+            <span className="brand-mark">Kutie <span className="amp">&amp;</span> Co.</span>
           </a>
           <div className="nav-links">
             {NAV_LINKS.map((l) => (
@@ -130,7 +130,7 @@ function Footer() {
       <div className="shell-wide">
         <div className="footer-grid">
           <div>
-            <span className="brand-mark">Ish <span className="amp">&amp;</span> Co.</span>
+            <span className="brand-mark">Kutie <span className="amp">&amp;</span> Co.</span>
             <p style={{ marginTop: 18, color: "rgba(251,247,241,0.65)", maxWidth: 340 }}>
               A luxury hair and beauty salon in Oshawa — where every guest leaves looking and feeling their absolute best.
             </p>
@@ -170,7 +170,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bot">
-          <span>© {new Date().getFullYear()} Ish Hair &amp; Beauty Salon. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Kutie Hair &amp; Beauty Salon. All rights reserved.</span>
           <span style={{ fontFamily: "var(--display)", fontStyle: "italic", color: "var(--gold)" }}>
             Crafted with care in Oshawa, Ontario.
           </span>

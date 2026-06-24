@@ -7,7 +7,7 @@ import Reveal from "@/components/Reveal";
 import { FAQ, IMG, PROCESS, SERVICES, TESTIMONIALS, WHY } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Ish Hair & Beauty Salon — Where Beauty Meets Confidence",
+  title: "Kutie's Beauty Lounge — Where Beauty Meets Confidence",
   description:
     "Oshawa's boutique hair and beauty salon. Expert styling, custom colour, bridal services, and a complete beauty experience.",
 };
@@ -35,7 +35,7 @@ export default function HomePage() {
             className="eyebrow"
             style={{ color: "var(--blush)", marginBottom: 28 }}
           >
-            ✦ Oshawa's Boutique Hair &amp; Beauty Salon ✦
+            ✦ Lagos' Hair &amp; Beauty Lounge ✦
           </div>
           <h1>
             Where Beauty<br />
@@ -48,7 +48,7 @@ export default function HomePage() {
             <Link href="/booking" className="btn btn-primary">
               Book Appointment
             </Link>
-            <a href="tel:6479609764" className="btn btn-secondary">
+            <a href="tel:+2348124416681" className="btn btn-secondary">
               Call Now
             </a>
           </div>
@@ -65,8 +65,8 @@ export default function HomePage() {
             <span className="scroll-cue-line"></span>
           </div>
           <div style={{ textAlign: "right" }}>
-            1808 Grandview St N<br />
-            Oshawa, ON
+            8 Ajayi Aina Street, Ifako<br />
+            Gbagada, Lagos
           </div>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default function HomePage() {
                 style={{ backgroundImage: `url(${IMG.salonInterior})` }}
               ></div>
               <div>
-                <span className="eyebrow">Why Ish</span>
+                <span className="eyebrow">Why Kutie</span>
                 <h2 style={{ marginTop: 18 }}>
                   The little details<br />
                   you can <em className="serif-i">feel</em>.
@@ -286,7 +286,7 @@ export default function HomePage() {
         <div className="shell-wide">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">The Ish Ritual</span>
+              <span className="eyebrow">The Kutie Ritual</span>
               <h2>
                 Five steps from<br />
                 booked to <em className="serif-i">beaming.</em>
@@ -328,13 +328,13 @@ export default function HomePage() {
                 >
                   Anything we haven&apos;t covered? Reach us at{" "}
                   <a
-                    href="tel:6479609764"
+                    href="tel:+2348124416681"
                     style={{
                       borderBottom: "1px solid var(--rose-gold)",
                       color: "var(--rose-gold)",
                     }}
                   >
-                    (647) 960-9764
+                    +234 812 441 6681
                   </a>
                   .
                 </p>
@@ -361,7 +361,7 @@ export default function HomePage() {
               }}
             >
               <div>
-                <span className="eyebrow">@ishbeauty</span>
+                <span className="eyebrow">@kutiebeauty</span>
                 <h2
                   style={{
                     marginTop: 12,

@@ -23,7 +23,7 @@ export default function FinalCta() {
               <Link href="/booking" className="btn btn-primary">
                 Book Appointment
               </Link>
-              <a href="tel:6479609764" className="btn btn-secondary">
+              <a href="tel:+2348124416681" className="btn btn-secondary">
                 Call Now
               </a>
             </div>

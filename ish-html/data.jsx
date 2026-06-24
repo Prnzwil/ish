@@ -1,4 +1,4 @@
-// All content + image references for Ish Hair & Beauty Salon
+// All content + image references for Kutie's Beauty Lounge
 // Images via Unsplash (hot-link, stable IDs)
 
 const IMG = {
@@ -135,10 +135,10 @@ const TESTIMONIALS = [
 
 const TEAM = [
   {
-    name: "Ishika Patel",
+    name: "Kutieika Patel",
     role: "Founder · Lead Stylist",
     spec: "Precision cutting · Modern styling",
-    bio: "Founder of Ish with 12 years across Toronto and London salons. Known for sculpted cuts that grow out as beautifully as they begin.",
+    bio: "Founder of Kutie with 12 years across Toronto and London salons. Known for sculpted cuts that grow out as beautifully as they begin.",
     img: IMG.stylist1,
   },
   {

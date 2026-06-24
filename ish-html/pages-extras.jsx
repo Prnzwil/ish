@@ -201,7 +201,7 @@ function BlogPage() {
     <div data-screen-label="Blog">
       <PageHead
         crumbs="Journal"
-        title="The <em>Ish</em> Journal."
+        title="The <em>Kutie</em> Journal."
         sub="Beauty tips, hair-care guides, and stories from the chair — written by our team for the curious."
       />
       <section className="section" style={{ paddingTop: 30 }}>

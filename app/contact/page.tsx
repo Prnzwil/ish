@@ -4,7 +4,7 @@ import PageHead from "@/components/PageHead";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Contact — Ish Hair & Beauty Salon",
+  title: "Contact — Kutie's Beauty Lounge",
   description:
     "Visit us at 1808 Grandview St N, Oshawa. Call (647) 960-9764 or send a message — we typically respond within a few hours.",
 };
@@ -33,8 +33,8 @@ export default function ContactPage() {
                     <div>
                       <h4>Visit Us</h4>
                       <p>
-                        1808 Grandview St N<br />
-                        Oshawa, ON L1K 0Y2
+                        8 Ajayi Aina Street, Ifako<br />
+                        Gbagada, Lagos
                       </p>
                     </div>
                   </div>
@@ -47,8 +47,8 @@ export default function ContactPage() {
                     <div>
                       <h4>Call Us</h4>
                       <p>
-                        <a href="tel:6479609764" style={{ color: "inherit" }}>
-                          (647) 960-9764
+                        <a href="tel:+2348124416681" style={{ color: "inherit" }}>
+                          +234 812 441 6681
                         </a>
                       </p>
                     </div>
@@ -137,8 +137,8 @@ export default function ContactPage() {
                     <div className="pin-dot"></div>
                   </div>
                   <div className="map-card">
-                    <div className="t">Ish Hair &amp; Beauty</div>
-                    <div className="s">1808 Grandview St N</div>
+                    <div className="t">Kutie Hair &amp; Beauty</div>
+                    <div className="s">Gbagada, Lagos</div>
                   </div>
                 </div>
               </div>

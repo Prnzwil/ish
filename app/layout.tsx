@@ -22,7 +22,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Ish Hair & Beauty Salon — Where Beauty Meets Confidence",
+  title: "Kutie's Beauty Lounge — Where Beauty Meets Confidence",
   description:
     "A modern hair and beauty salon offering styling, color, treatments, extensions, bridal, and beauty services.",
 };

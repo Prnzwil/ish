@@ -3,7 +3,7 @@ import BookingForm from "@/components/BookingForm";
 import PageHead from "@/components/PageHead";
 
 export const metadata: Metadata = {
-  title: "Book Appointment — Ish Hair & Beauty Salon",
+  title: "Book Appointment — Kutie's Beauty Lounge",
   description:
     "Reserve your chair in three quick steps. Pick a service, choose a date and time, and we'll send confirmations by text and email.",
 };

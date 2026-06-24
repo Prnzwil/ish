@@ -32,7 +32,7 @@ export default function Nav() {
         <div className="shell-wide nav-inner">
           <Link href="/" className="brand">
             <span className="brand-mark">
-              Ish <span className="amp">&amp;</span> Co.
+              Kutie's <span className="amp">Beauty</span>
             </span>
           </Link>
           <div className="nav-links">
@@ -47,8 +47,8 @@ export default function Nav() {
             ))}
           </div>
           <div className="nav-cta">
-            <a href="tel:6479609764" className="nav-phone">
-              <span className="nav-phone-i">✦</span> (647) 960-9764
+            <a href="tel:+2348124416681" className="nav-phone">
+              <span className="nav-phone-i">✦</span> +234 812 441 6681
             </a>
             <Link href="/booking" className="btn btn-primary">
               Book Now

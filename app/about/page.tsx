@@ -5,9 +5,9 @@ import Reveal from "@/components/Reveal";
 import { IMG, VALUES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "About — Ish Hair & Beauty Salon",
+  title: "About — Kutie's Beauty Lounge",
   description:
-    "The story of Ish — a boutique hair and beauty salon in Oshawa where every visit is an hour belonging entirely to you.",
+    "The story of Kutie — a boutique hair and beauty salon in Oshawa where every visit is an hour belonging entirely to you.",
 };
 
 const STATS = [
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHead
         crumbs="About"
         title="Beauty, with <em>intention.</em>"
-        sub="Ish is a boutique salon born out of one belief — that great hair is a quiet kind of confidence, and that you deserve a space that takes it seriously."
+        sub="Kutie is a boutique salon born out of one belief — that great hair is a quiet kind of confidence, and that you deserve a space that takes it seriously."
         bg={IMG.salonInterior}
       />
       <section className="section" style={{ paddingTop: 60 }}>
@@ -38,7 +38,7 @@ export default function AboutPage() {
                   for <em className="serif-i">every chapter</em>.
                 </h2>
                 <p style={{ color: "var(--soft-brown)", marginTop: 20, fontSize: 17, lineHeight: 1.7 }}>
-                  Ish was founded with a singular idea: that a salon visit should feel less like an errand and more like an hour belonging entirely to you. From the moment you walk through our door in Oshawa, you're greeted by warm light, considered design, and a team that listens before they style.
+                  Kutie was founded with a singular idea: that a salon visit should feel less like an errand and more like an hour belonging entirely to you. From the moment you walk through our door in Lagos, you're greeted by warm light, considered design, and a team that listens before they style.
                 </p>
                 <p style={{ color: "var(--soft-brown)", marginTop: 18, fontSize: 17, lineHeight: 1.7 }}>
                   We've been a small team since the beginning — by design. It lets us know our regulars by name, remember the products you love, and craft a service that actually feels personal.
